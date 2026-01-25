@@ -1,3 +1,3 @@
 function openPortfolio(){
-  window.open("https://seuportfolio.com","_blank")
+  window.open("portfolio.html","_blank")
 }
