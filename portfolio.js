@@ -105,8 +105,7 @@ const galleries = {
     "galeria/6-2.jpeg",
     "galeria/6-3.jpeg",
     "galeria/6-4.jpeg",
-    "galeria/6-5.jpeg",
-    "galeria/6-6.jpeg"
+    "galeria/6-5.jpeg"
   ],
   "Local 7": [
     "galeria/7-1.jpeg",
