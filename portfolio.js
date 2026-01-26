@@ -139,7 +139,6 @@ const galleries = {
   "Local 9": [
     "galeria/9-0.jpeg",
     "galeria/9-1.jpeg",
-    "galeria/9-2.jpeg",
     "galeria/9-3.jpeg",
     "galeria/9-4.jpeg",
     "galeria/9-5.jpeg",
