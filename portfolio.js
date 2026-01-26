@@ -12,13 +12,11 @@ const galleries = {
     "galeria/2-2.jpeg",
     "galeria/2-3.jpeg",
     "galeria/2-4.jpeg",
-    "galeria/2-5.jpeg",
     "galeria/2-6.jpeg",
     "galeria/2-7.jpeg",
     "galeria/2-8.jpeg",
     "galeria/2-9.jpeg",
     "galeria/2-10.jpeg",
-    "galeria/2-11.jpeg",
     "galeria/2-12.jpeg",
     "galeria/2-13.jpeg",
     "galeria/2-14.jpeg",
@@ -62,9 +60,111 @@ const galleries = {
     "galeria/3-21.jpeg",
     "galeria/3-22.jpeg",
     "galeria/3-23.jpeg",
-    "galeria/3-24.jpeg",
-    "galeria/3-25.jpeg"
-  ]
+    "galeria/3-25.jpeg",
+    "galeria/3-26.jpeg",
+    "galeria/9-17.jpeg",
+    "galeria/9-18.jpeg"
+  ],
+  "Local 4": [
+    "galeria/4-0.jpeg",
+    "galeria/4-1.jpeg",
+    "galeria/4-2.jpeg",
+    "galeria/4-3.jpeg",
+    "galeria/4-4.jpeg",
+    "galeria/4-5.jpeg",
+    "galeria/4-6.jpeg",
+    "galeria/4-7.jpeg",
+    "galeria/4-8.jpeg",
+    "galeria/4-9.jpeg",
+    "galeria/4-10.jpeg",
+    "galeria/4-11.jpeg",
+    "galeria/4-12.jpeg",
+    "galeria/4-13.jpeg",
+    "galeria/4-14.jpeg",
+    "galeria/4-15.jpeg",
+    "galeria/4-16.jpeg"
+  ],
+  "Local 5": [
+    "galeria/5-0.jpeg",
+    "galeria/5-1.jpeg",
+    "galeria/5-2.jpeg",
+    "galeria/5-6.jpeg",
+    "galeria/5-7.jpeg",
+    "galeria/5-8.jpeg",
+    "galeria/5-9.jpeg",
+    "galeria/5-10.jpeg",
+    "galeria/5-11.jpeg",
+    "galeria/5-12.jpeg",
+    "galeria/5-13.jpeg",
+    "galeria/5-14.jpeg"
+
+  ],
+  "Local 6": [
+    "galeria/6-0.jpeg",
+    "galeria/6-1.jpeg",
+    "galeria/6-2.jpeg",
+    "galeria/6-3.jpeg",
+    "galeria/6-4.jpeg",
+    "galeria/6-5.jpeg",
+    "galeria/6-6.jpeg"
+  ],
+  "Local 7": [
+    "galeria/7-1.jpeg",
+    "galeria/7-4.jpeg",
+    "galeria/7-5.jpeg",
+    "galeria/7-6.jpeg",
+    "galeria/7-7.jpeg",
+    "galeria/7-8.jpeg",
+    "galeria/7-9.jpeg",
+    "galeria/7-10.jpeg",
+    "galeria/7-11.jpeg",
+    "galeria/7-12.jpeg"
+
+  ],
+  "Local 8": [
+    "galeria/8-0.jpeg",
+    "galeria/8-1.jpeg",
+    "galeria/8-2.jpeg",
+    "galeria/8-3.jpeg",
+    "galeria/8-4.jpeg",
+    "galeria/8-5.jpeg",
+    "galeria/8-6.jpeg",
+    "galeria/8-7.jpeg",
+    "galeria/8-8.jpeg",
+    "galeria/8-9.jpeg",
+    "galeria/8-10.jpeg",
+  
+
+  ],
+  "Local 9": [
+    "galeria/9-0.jpeg",
+    "galeria/9-1.jpeg",
+    "galeria/9-2.jpeg",
+    "galeria/9-3.jpeg",
+    "galeria/9-4.jpeg",
+    "galeria/9-5.jpeg",
+    "galeria/9-6.jpeg",
+    "galeria/9-7.jpeg",
+    "galeria/9-8.jpeg",
+    "galeria/9-9.jpeg",
+    "galeria/9-10.jpeg",
+    "galeria/9-11.jpeg",
+    "galeria/9-12.jpeg",
+    "galeria/9-13.jpeg",
+    "galeria/9-14.jpeg",
+    "galeria/9-15.jpeg",
+    "galeria/9-16.jpeg"
+    
+
+  ],
+  "Local 10": [
+    "galeria/10-0.jpeg",
+    "galeria/10-1.jpeg",
+    "galeria/10-2.jpeg",
+    "galeria/10-3.jpeg",
+    "galeria/9-2.jpeg"
+  ],
+
 };
 
 document.querySelectorAll(".carousel").forEach(carousel => {

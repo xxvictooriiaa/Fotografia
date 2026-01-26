@@ -7,8 +7,9 @@ body{
 
 h1{
   text-align:center;
-  margin:40px 0 80px;
+  margin:15px 80px;
   letter-spacing:2px;
+  margin-bottom: 15px;
 }
 
 .portfolio{
@@ -23,6 +24,7 @@ h1{
   display:flex;
   align-items:center;
   gap:40px;
+  margin-top: 50px;
 }
 
 .arrow{
@@ -69,4 +71,92 @@ h1{
 
 .photo-container:hover .overlay{
   opacity:1;
+}
+.credito {
+  width: 100%;
+  background: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+  font-family: Arial;
+}
+
+.credito a {
+ font-size:15px;
+  opacity: 0.90;
+  color:rgb(0, 0, 0);
+  text-decoration:none;
+}
+.credito a:hover {
+  opacity: 0.6;
+}
+
+/* menu */
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+
+/* botões */
+.btn {
+  text-decoration: none;
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 999px; 
+  font-weight: 500;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.85;
+}
+/* padrão (todos os outros) */
+.photo-container img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* estilo especial para o Local 8 */
+
+.photo-container.horizontal {
+  position: relative;
+  width: 80%;
+  max-width: 900px;
+  height: 300px;   
+  margin: 0 auto;
+}
+
+.photo-container.horizontal img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 60px; 
+  box-shadow: 0 20px 45px rgba(0,0,0,0.6);
+  display: block;
+}
+.overlay-horizontal{
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.55);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: white;
+
+  opacity: 0;
+  transition: .3s;
+  border-radius: 60px; 
+}
+.photo-container.horizontal:hover .overlay-horizontal{
+  opacity: 1;
 }
